@@ -1,4 +1,4 @@
-title = "Hugo Netlify Starter"
+title = "Parsec"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 enableGitInfo = true
@@ -26,27 +26,27 @@ enableGitInfo = true
 style = "paraiso-dark"
 
 [params]
-projectName = "Hugo Netlify Starter"
+projectName = "Parsec"
 font_awesome_version = "5.12.0"
-description = "Boilerplate for building beautiful websites"
+description = "Website for the Parsec project"
 favicon = "favicon.png"
-repositoryUrl = "https://github.com/cncf/hugo-netlify-starter"
+repositoryUrl = "https://github.com/tbd"
 contentDir = "/content/"
 
 [params.logos]
-navbar = "cncf-color.png"
+navbar = "parsec-icon-white.svg"
 
 [[params.social]]
 name = "GitHub"
 color = "#000000"
-url = "https://github.com/cncf/hugo-netlify-starter"
+url = "https://github.com/parallaxsecond/parsec"
 icon = "fab fa-github"
 
 [[params.social]]
-name = "Twitter"
-color = "#00aced"
-url = "https://twitter.com/CloudNativeFdn"
-icon = "fab fa-twitter"
+name = "Slack"
+color = "#4A154B"
+url = "https://github.com/parallaxsecond/community#community-channel"
+icon = "fab fa-slack"
 
 [[params.fonts]]
 name = "Fira Sans"
@@ -69,7 +69,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Sample Content"
-url = "/docs/"
+name = "Documentation"
+url = "https://parallaxsecond.github.io/parsec-book/"
 weight = 2
 

@@ -65,9 +65,19 @@
 // Custom
 
 $font-family-headers: "Fira Sans" 
+$parsec-blue: #26D1FF
+$parsec-blue-light: #E2F9FF
+$accent-gray: #e9ecef
+$accent-teal: #12758A
 
 .logo
-  max-width: 200px
+  max-width: 80px
+.main-logo
+  max-width: 50%
+.main-diagram
+  max-width: 80%
+.navbar-logo
+  min-height: 3rem
 
 .breadcrumb 
   li
@@ -95,12 +105,24 @@ h1, h2, h3, h4, h5, h6
   scroll-margin-top: 5rem
   margin-top: 1.8rem
 
+.subtitle 
+  font-family: $font-family-headers
+  font-size: 1.8rem
+  strong
+    font-weight: 600
+
 nav 
   ul 
     list-style-type: none
     padding-left: 0
     ul
       padding-left: 1.5rem
+
+.navbar 
+  background-color: $parsec-blue
+
+.navbar-light .navbar-nav .nav-link
+  color: #ffffff
 
 
 .td-content, body
@@ -127,3 +149,20 @@ nav
 
   h1:first-of-type + blockquote.callout
     margin-top: 1.5em
+
+a
+  color: $accent-teal
+
+.logos 
+  img 
+    max-width: 60% 
+
+.fab 
+  margin: 0.1rem
+
+.features 
+  h3
+    color: $parsec-blue
+
+hr
+  border: 1px solid $parsec-blue

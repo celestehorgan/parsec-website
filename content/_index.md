@@ -1,29 +1,34 @@
 ---
-title: "Home"
+title: "Inclusive Naming Initiative"
 ---
 
-[This is a blatantly broken link](https://kubernetes.io/hl)
+{{< jumbotron bgcolor="#E2F9FF" align="text-center" >}}
 
-This is *not* a full-fledged Hugo theme! It's just a convenient way to get started with a brand new site that's wired with:
+  <img src="/img/logos/parsec-stacked-color.svg" title="Parsec logo" class="main main-logo"/>
 
-* A [Netlify](https://netlify.com) configuration for easy deployment, plus deploy previews
-* Some baseline [Hugo](https://gohugo.io) scaffolding
-* The [Bootstrap 4.5.x](https://getbootstrap.com/docs/4.5/getting-started/introduction/) CSS framework
-* An example Hugo configuration with:
-  * A main menu
-  * Specified sans-serif and monospace fonts
-  * Some extra colors
-  * A Twitter button
-  * Some copyright text for the footer
+{{< /jumbotron >}}
 
-To get started, you need to have Hugo and [Yarn](https://yarnpkg.com) installed. Once those are installed:
+{{< jumbotron bgcolor="#ffffff" align="text-center" >}}
 
-```shell
-git clone https://github.com/cncf/hugo-netlify-starter && cd hugo-netlify-starter
+  <span class="subtitle">PARSEC is the <span style="color: #26D1FF" title="Stylized explanation of the name PARSEC: the Platform Abstraction for Security" ><strong>P</strong>latform <strong>A</strong>bst<strong>R</strong>action for <strong>SEC</strong>urity</span>, an open-source initiative to provide a common API to hardware security and cryptographic services in a platform-agnostic way. This abstraction layer keeps workloads decoupled from physical platform details, enabling cloud-native delivery flows within the data center and at the edge.</span>
 
-# Install npm assets (just Bulma for Sass/CSS)
-yarn
+{{< /jumbotron >}}
 
-# Run the server locally
-make serve
-```
+{{< jumbotron title="How it works" bgcolor="#FFFFFF" textcolor="#000000" align="text-center" >}}
+
+  <img src="/img/home/diagram.svg" title="Parsec diagram" class="main-diagram mt-5"/>
+
+{{< /jumbotron >}}
+
+{{< jumbotron title="Features" bgcolor="#e9ecef" textcolor="#000000" align="text-left" >}}
+
+{{< features >}}
+
+{{< /jumbotron >}}
+
+
+{{< jumbotron bgcolor="#FFFFFF" textcolor="#000000" align="text-left" >}}
+
+{{< logos >}}
+
+{{< /jumbotron >}}
